@@ -16,5 +16,8 @@ public class Calculator {
 
         int  fourTimeTwo = four * two;
         System.out.println(fourTimeTwo);
+
+        int onePlusTwo = one + two;
+        System.out.println(onePlusTwo);
     }
 }
