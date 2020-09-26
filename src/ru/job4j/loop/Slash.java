@@ -20,10 +20,9 @@ public class Slash {
     }
 
     public static void main(String[] args) {
-        System.out.println("Draw by 3");
-        draw(3);
+
         System.out.println("Draw by 5");
-        draw(111);
+        draw(7);
 
     }
 }
