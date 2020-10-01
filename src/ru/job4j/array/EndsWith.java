@@ -17,6 +17,9 @@ public class EndsWith {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] post = {'H', 'e', 'l', 'l', 'i'};
 
+
+
+
         System.out.println(endsWith(word, post));
     }
 }
