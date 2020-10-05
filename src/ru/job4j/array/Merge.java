@@ -8,7 +8,6 @@ public class Merge {
             return new int[0];
         } else if (left.length == right.length) {
             rsl = eqLeng(left, right);
-
         } else if (left.length < right.length) {
             if (left.length == 0) {
                 for (int i = 0; i < right.length; i++) {
@@ -28,7 +27,6 @@ public class Merge {
                 }
                 count++;
             }
-
         } else if (right.length < left.length) {
             if (right.length == 0) {
                 for (int i = 0; i < left.length; i++) {
@@ -49,11 +47,9 @@ public class Merge {
                 if (count < rsl.length - 1) {
                     count++;
                 }
-
             }
         }
         return rsl;
-
     }
 
     public static int[] eqLeng(int[] left, int[] right) {
@@ -79,9 +75,7 @@ public class Merge {
             }
 
             count++;
-
         }
         return rsl;
     }
-
 }

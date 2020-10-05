@@ -7,13 +7,11 @@ public class MinDiapason {
             if (min > array[i]) {
                 min = array[i];
             }
-
         }
         return min;
     }
 
     public static void main(String[] args) {
-
         int[] arr = new int[]{10, 5, 3, 1};
         System.out.println(findMin(arr, 1, 3));
     }

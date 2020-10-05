@@ -12,7 +12,6 @@ public class X2 {
         int x = 1;
         int rsl = X2.calc(a, b, c, x);
         System.out.println(rsl);
-
         int rsl1 = calc(1, 1, 1, 0);
         System.out.println(rsl1);
     }

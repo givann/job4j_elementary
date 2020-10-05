@@ -12,12 +12,7 @@ public class Defragment {
                         array[point] = tmp;
                         break;
                     }
-
                 }
-
-
-                /* указатель на null ячейку. */
-                /* переместить первую не null ячейку. Нужен цикл. */
             }
             System.out.print(array[index] + " ");
         }

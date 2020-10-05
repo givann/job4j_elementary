@@ -1,13 +1,12 @@
 package ru.job4j.condition;
 
 public class SwitchWeek {
-
     public static String nameOfDay(int day) {
         String name = new String("Ошибка");
         if (day < 1 && day > 7) {
             return name;
         } else {
-            switch (day) {
+            switch(day) {
                 case 1:
                     name = "Monday";
                     break;
