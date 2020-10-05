@@ -42,4 +42,13 @@ public class PointTest {
         double out = point.distance(point1);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void when000To333Then5Point2() {
+        double expected = 5.2;
+        Point point = new Point(0, 0, 0);
+        Point point1 = new Point(3, 3, 3);
+        double out = point.distance3d(point1);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
