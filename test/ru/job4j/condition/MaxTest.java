@@ -23,4 +23,20 @@ public class MaxTest {
         int result = Max.max(4, 4);
         assertThat(result, is(4));
     }
+
+    @Test
+    public void max() {
+    }
+
+    @Test
+    public void maxThree() {
+        int result = Max.maxThree(4, 4, 5);
+        assertThat(result, is(5));
+    }
+
+    @Test
+    public void maxFour() {
+        int result = Max.maxFour(1, 2, 3, 4);
+        assertThat(result, is(4));
+    }
 }
